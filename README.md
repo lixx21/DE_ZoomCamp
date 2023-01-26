@@ -6,4 +6,4 @@
 
 ## Docker WEEK 1
 
-&nbsp;&nbsp;&nbsp;&nbsp; First I created simple dockerfile with python 3:9 as a base of the container and ** "bash" as an entrypoint ** for the docker image. I run it to test the docker image with ** docker run -it <docker image name>**
+&nbsp;&nbsp;&nbsp;&nbsp; First I created simple dockerfile with python 3:9 as a base of the container and ** "bash" as an entrypoint ** for the docker image. I run it to test the docker image with ** docker run -it (docker image name)**
