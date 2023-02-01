@@ -2,5 +2,5 @@
 
 
 # run docker postgres using docker run
-
-docker run -it -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxis" -v C:/Users/ASUS/Documents/projects/DE_ZoomCamp/week_1/docker/ny_taxi_postgres_data:/var/lib/postgresql/data -p 5432:5432 postgres:13
+# because I have port 5432 in my host computer then I changed the docker postgres port to 30
+docker run -it -e POSTGRES_USER="root" -e POSTGRES_PASSWORD="root" -e POSTGRES_DB="ny_taxis" -v C:/Users/ASUS/Documents/projects/DE_ZoomCamp/week_1/docker/ny_taxi_postgres_data:/var/lib/postgresql/data -p 30:5432 postgres:13
