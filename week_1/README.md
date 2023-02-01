@@ -1,5 +1,3 @@
-# DE_ZoomCamp
-
 # WEEK 1
 
 &nbsp;&nbsp;&nbsp;&nbsp; In this weeek I learned about docker and introduction of terraform, there are also homeworks that I have done using docker and terrafom that you can access in []().
